@@ -1,0 +1,344 @@
+#choose{
+    border: solid 11px black;
+   width: 300px;
+   height: 634px;
+   position: absolute;
+   left: 75%;
+   top: 2%;
+   overflow-y: scroll;
+   border-top-right-radius: 30px;
+   border-top-left-radius: 30px;
+   border-bottom-right-radius: 30px;
+   border-bottom-left-radius: 30px;
+   background-color:snow;
+   border-color: #2952a3;
+   padding-bottom: 1em;
+}
+#welcomepage{
+    margin-left: 82px;
+    margin-top: -34px;
+    margin-bottom: 52px;
+    font-size: 25px;
+}
+
+#welcomep{
+    
+    position: absolute;
+    top: 573px;
+    left: 364px;
+    font-size: 30px;
+    display: none;
+    color:#2952a3;  
+    
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+    height: 30px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+    
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #2952a3; 
+    border-radius: 10px;
+    height: 20px;;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1f3d7a; 
+  }
+
+.box{
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   border-bottom-left-radius: 10px;
+   background-color: #2952a3;
+   color: snow;
+   font-family: cursive;
+   font-style: italic;
+}
+#subbtn{
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   background-color:#2952a3;
+   border-style: none;
+   position: fixed;
+   left: 51em;
+   bottom: 22em;
+   width: 10em;
+   height: 4em;
+   font-family: cursive;
+   font-style: italic;
+   color: snow;
+   cursor: pointer;
+}
+#frm{
+   width: 30em;
+   height: 25em;
+   position: fixed;
+   left: 30em;
+   top: 5em;
+   padding-left: 5em;
+   padding-top: 4em;
+   border-top-right-radius: 40px;
+   border-top-left-radius: 40px;
+   border-bottom-right-radius: 40px;
+   border-bottom-left-radius: 40px;
+   background-color:snow;
+   border-style: solid;
+   border-color: #2952a3;
+}
+.in{
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border-top-style: hidden;
+   border-right-style: hidden;
+   border-left-style: hidden;
+   border-color:#2952a3 ;
+   background-color: snow;
+}
+p{
+   font-family: cursive;
+   font-style: italic;
+}
+.lbl{
+   font-family: cursive;
+   font-style: italic;
+}
+#finish{
+    border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   background-color:#2952a3;
+   border-style: none;
+   height:2em;
+   color: snow;
+   font-family: cursive;
+   font-style: italic;
+}
+
+
+#shape1,
+#shape2,
+#shape3,
+#shape4,
+#shape5{
+    width: 50px;
+    cursor : pointer;
+}
+#fullbeard{
+    display: none;
+}
+#cele{
+    display: none;
+    border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   background-color:#2952a3;
+   border-style: none;
+   height:2em;
+   position: absolute;
+   left: 82%;
+   bottom: 1%;
+   height: 3em;
+   width: 7em;
+   color: snow;
+   font-family: cursive;
+   font-style: italic;
+}
+
+#outface{
+    width: 237px; 
+    margin-top: 20px;
+}
+
+#outeyebrow{
+    left: 45px;
+    width: 351px;
+    top: -43px;
+    position: absolute;
+    display: none;
+}
+
+#eyebrow1,#eyebrow2,#eyebrow3,#eyebrow4,#eyebrow5{
+    width: 100px;
+    cursor: pointer;
+}
+
+
+#eye1,#eye2,#eye3,#eye4
+{
+    width: 100px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#outeyes{
+    position: absolute;
+     width: 189px;
+        top: 131px;
+    left: 129px;
+    
+}
+
+#nose1,#nose2,#nose3,#nose4
+{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    cursor : pointer;
+}
+
+
+
+#outnose{
+    position: absolute;
+    width: 57px;
+    height: 85px;
+    top: 161px;
+    left: 199px;
+    display: none;
+}
+
+#lip1,#lip2,#lip3,#lip4,#lip5,#lip6
+{
+    width: 70px;
+    padding: 10px;
+    cursor : pointer;
+}
+
+#outlips{
+    position: absolute;
+    width: 151px;
+    top: 207px;
+    left: 150px;
+    
+}
+
+#hair1,
+#hair2,
+#hair3,
+#hair4,
+#hair5,
+#hair6,
+#hair7,
+#hair8,
+#hair9
+{
+    
+    width: 80px;
+    cursor : pointer;
+}
+
+#beard1,
+#beard2,
+#beard3,
+#beard4,
+#beard5,
+#beard6,
+#beard7,
+#beard8,
+#beard10,
+#beard9,
+#beard0
+{
+    
+    width: 60px;
+    cursor : pointer;
+}
+
+#reset{
+    width: 100px;
+    cursor: pointer;
+}
+
+#outhair
+{
+    position:absolute;
+    width: 348px;
+    top: -34px;
+    left: 58px;
+    z-index: 4;
+}
+
+#gif{
+    display: none;
+    z-index: 999;
+    position: absolute;
+    left: 288px;
+    width: 630px;
+    height: 100%;
+}
+
+
+#glasses1,
+#glasses2,
+#glasses3,
+#glasses4,
+#glasses5,
+#glasses6,
+#glasses7 {
+    width: 80px;
+    cursor: pointer;
+}
+
+
+#outglasses {
+    position: absolute;
+    width: 250px;
+    top: 100px;
+    left: 98px;
+}
+
+
+#background1,
+#background2,
+#background3,
+#background4,
+#background5
+ {
+    height: 80px;
+    width: 80px;
+     cursor: pointer;
+}
+#backgrounddisplay{
+    display: none;
+}
+
+
+#outbackground {
+    position: absolute;
+    height: 700px;
+    width: 487px;
+    z-index: -2;
+    left: -13px;
+    bottom: 10;
+    display: none;
+    
+}
+
+
+#finalimage{
+    position: absolute;
+    top: 58px;
+    width: 440px;
+    height: 535px;
+    left: 374px;
+}
